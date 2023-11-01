@@ -2,8 +2,9 @@
 
 /**
 * binary_tree_insert_right - Inserts a right node in a binary tree
+* @parent: A pointer to hte parent node
 * @value: Integer stored on node
-* Return: if faill Null, otherwise new_node
+* Return: if fail Null, otherwise new_node
 */
 
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
